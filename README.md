@@ -55,7 +55,6 @@ To kick off your internship, we have prepared a set of tasks for you to work on.
 * Complete the tasks sequentially starting from the easiest level.
 * Choose any one Section Easy or Medium or Hard and work on it only.
 * You need to do 4 Tasks if you choose Easy section and You need to do 3 Tasks if you Choose Medium section and You need to do 2 Tasks only if you choose Hard Section
-* All tasks must be completed using HTML, CSS, and JavaScript / ReactJs.
 * Ensure that your solutions are clean, efficient, and maintainable.
 * Document your thought process and approach for each solution.
 * Submit the complete package consisting of source code files, screenshots, and descriptions to the designated mentor via link using GitHub.
