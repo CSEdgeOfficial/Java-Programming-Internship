@@ -17,7 +17,7 @@ git clone https://github.com/CSEdgeOfficial/Java-Programming-Internship/
 ```
 2. Navigate to the cloned directory:
 ```bash
-cd Java-Programming-Projects
+cd Java-Programming-Internship
 ```
 3. Create a new folder with your full name to store your projects:
 ```bash
