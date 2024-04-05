@@ -13,7 +13,7 @@ To begin working on the projects, follow these steps:
 
 1. Clone the repository to your local machine using the command:
 ```bash
-git clone https://github.com/CSEdgeOfficial/Java-Programming-Projects/
+git clone https://github.com/CSEdgeOfficial/Java-Programming-Internship/
 ```
 2. Navigate to the cloned directory:
 ```bash
