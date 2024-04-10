@@ -39,7 +39,6 @@ public class SimpleCalculator {
             default:
                 System.out.println("Invalid choice");
         }
-
         scanner.close();
     }
 }
