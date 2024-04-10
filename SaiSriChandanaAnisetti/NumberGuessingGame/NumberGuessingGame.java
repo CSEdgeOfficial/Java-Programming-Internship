@@ -1,4 +1,3 @@
-
 package SaiSriChandanaAnisetti.NumberGuessingGame;
 import java.util.Random;
 import java.util.Scanner;
@@ -23,9 +22,7 @@ public class NumberGuessingGame {
             } else {
                 System.out.println("Incorrect guess. You have " + (chances - i - 1) + " chances left.");
             }
-        }
-        
-       
+        }       
         scanner.close();
     }
 }
