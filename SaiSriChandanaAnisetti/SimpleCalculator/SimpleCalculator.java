@@ -15,7 +15,6 @@ public class SimpleCalculator {
         System.out.println("4. Division (/)");
         int choice = scanner.nextInt();
         double result;
-
         switch (choice) {
             case 1:
                 result = num1 + num2;
