@@ -1,0 +1,62 @@
+package easy._mcdonnell;
+import java.util.Scanner;
+
+
+public class Easy_McDonnell 
+
+{
+    public static void main(String[] args) 
+    {
+     //Declare variable
+        char operator;
+        Double number1, number2;
+        
+     //Create a scanner object to read info from the keyboard
+        Scanner keyboard = new Scanner(System.in);  
+        
+     //Ask the user what operation they wish to use
+        System.out.println("Enter the operator symbol you wish to use: +, - , *, or /");
+        operator = keyboard.next().charAt(0);
+        
+     //Ask the user to input 2 numbers
+        System.out.println("Enter number 1:");
+        number1 = keyboard.nextDouble();
+        System.out.println("Enter number 2:");
+        number2 = keyboard.nextDouble();
+        
+      switch (operator)
+      {
+          case '+':
+                    {
+                        Double result = number1 + number2;
+                        System.out.println(number1 + operator + number2 + "=" + result);
+                        break;
+
+                    }
+          case '-':
+                    {
+                        Double result = number1 - number2;
+                        System.out.println(number1 + operator + number2 + "=" + result);
+                        break;
+                    }
+          case '*':
+                    {
+                        Double result = number1 * number2;
+                        System.out.println(number1 + operator + number2 + "=" + result);
+                        break;
+                    }
+          case '/':
+                    {
+                        Double result = number1 / number2;
+                        System.out.println(number1 + operator + number2 + "=" + result);
+                        break;
+                    }        
+          default:
+              System.out.println("That is an invalid operator.");
+              break;
+      }
+
+
+    }
+
+}
