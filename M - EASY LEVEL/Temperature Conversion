@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+package tempconversion;
+
+public class TempConversion 
+
+{
+    public static void main(String[] args) 
+
+    {
+     //Declare Variables
+        double fahrenheit;
+        double celsuis;
+        double kelvin;
+        
+     //Create a scanner object to read info from the keyboard
+        Scanner keyboard = new Scanner(System.in);
+        
+     //Ask the user for the temperature in fahrenheit
+        System.out.println("Enter the temperature in fahrenheit:");
+        fahrenheit = keyboard.nextDouble();
+        
+     //Convert to celsuis
+        celsuis = (fahrenheit - 32) * 5/9;
+        System.out.println(fahrenheit + "degrees fahrenheit converts to " + celsuis + " degrees celsuis.");
+        
+     //Convert to kelvin
+        kelvin = (fahrenheit - 32) * 5/9 + 273.15;
+        System.out.println(fahrenheit + "degrees fahrenheit converts to " + kelvin + " degrees kelvin.");
+        
+    }
+
+}
