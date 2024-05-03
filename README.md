@@ -120,8 +120,11 @@ Hard Level Tasks:
 12. Social Media Platform
     - Build a social networking platform with features like user profiles, posts, comments, likes, messaging, notifications, and privacy settings.
 
-### Our Contributors
-[![Contributors](https://github.com/CSEdgeOfficial/Java-Programming-Internship/graphs/contributors)](https://github.com/CSEdgeOfficial/Java-Programming-Internship/graphs/contributors)
+
+# Our Contributors ✨
+<a href="https://github.com/CSEdgeOfficial/Java-Programming-Internship/graphs/contributors">
+  <img align="center" src="https://contrib.rocks/image?max=100&repo=CSEdgeOfficial/Java-Programming-Internship" />
+</a> 
 
 <a id="conclusion"></a>
 
