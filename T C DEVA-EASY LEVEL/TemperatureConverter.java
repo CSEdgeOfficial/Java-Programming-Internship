@@ -1,6 +1,6 @@
 /*
 This code below show an application that converts temperatures between Celsius, Fahrenheit, and Kelvin scales,
-Name: K V Deepak,
+Name: Deva,
 Task4: Temperature Converter,
 Java Internship Programming.
  */
