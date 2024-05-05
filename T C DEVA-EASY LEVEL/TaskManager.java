@@ -1,6 +1,6 @@
 /*
 This code below show the GUI application for managing a list of tasks,
-Name: K V Deepak,
+Name: Deva,
 Task2: To Do List,
 Java Internship Programming.
 */
