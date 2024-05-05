@@ -1,6 +1,6 @@
 /*
 This code below show the simple calculator Application
-Name: K V Deepak
+Name: deva
 Task1: Simple basic Calculator Application,
         Java Internship Programming.
 */
