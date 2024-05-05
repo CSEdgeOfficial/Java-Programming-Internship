@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+class BankAccount {
+    private String accountNumber;
+    private double balance;
+
+    public BankAccount(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+
+    public void deposit(double amount) {
+        balance += amount;
+        System.out.println("Deposited $" + amount + ". Current balance: $" + balance);
+    }
+
+    public void withdraw(double amount) {
+        if (amount > balance) {
+            System.out.println("Insufficient funds.");
+        } else {
+            balance -= amount;
+            System.out.println("Withdrew $" + amount + ". Current balance: $" + balance);
+        }
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+class Customer {
+    private String name;
+    private BankAccount account;
+
+    public Customer(String name, BankAccount account) {
+        this.name = name;
+        this.account = account;
+    }
+
+    public void makeDeposit(double amount) {
+        account.deposit(amount);
+    }
+
+    public void makeWithdrawal(double amount) {
+        account.withdraw(amount);
+    }
+
+    public double checkBalance() {
+        return account.getBalance();
+    }
+}
+
+public class OnlineBankingSystem {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Create a bank account
+        BankAccount account1 = new BankAccount("123456", 1000);
+
+        // Create a customer
+        Customer customer1 = new Customer("Alice", account1);
+
+        // Perform transactions
+        customer1.makeDeposit(500);
+        customer1.makeWithdrawal(200);
+        System.out.println("Current balance: $" + customer1.checkBalance());
+
+        scanner.close();
+    }
+}
