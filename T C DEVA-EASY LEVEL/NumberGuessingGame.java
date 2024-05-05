@@ -1,6 +1,6 @@
 /*
 This code below show a simple number guessing game,
-Name: K V Deepak,
+Name: Deva,
 Task3: Number Guessing Game,
 Java Internship Programming.
  */
