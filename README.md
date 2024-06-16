@@ -1,7 +1,7 @@
 # Java-Programming-Internship
 
 Title: Java Programming Internship Tasks <br>
-Subtitle: CSEdge Internmship Program <br>
+Subtitle: CSEdge Internship Program <br>
 Author: Team CSEdge <br>
 Level: Easy, Medium, Hard <br>
 Questions per Level: 4 <br>
