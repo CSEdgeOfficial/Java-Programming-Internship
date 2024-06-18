@@ -1,0 +1,68 @@
+import java.util.*;
+import java.io.*;
+public class ChatBot {
+    public static void main(String[] args) {
+        while(true)
+        {
+            Scanner sc=new Scanner(System.in);
+            System.out.print("Type your name:");
+            String name=sc.nextLine();
+            System.out.print("Ask Me Anything" +" "+ name + ":-");
+            String message=sc.nextLine();
+
+            if(message.equals("hi") || message.equals("hello") || message.equals("bonjour") ||message.equals("namaste") || message.equals("hola"))
+            {
+                System.out.println("User Said:" +message );
+                System.out.println("Bot Said:" + "Hey" +" " +name + ",how can i assist you?");
+            }
+
+            else if(message.equals("how are you") || message.equals("kese ho") || message.equals("kaisan ba") ||message.equals("kem choo") || message.equals("how's you"))
+            {
+                System.out.println("User Said:" +message );
+                System.out.println("Bot Said:" + "I am good" +" " +name + ",What about you?");
+            }
+
+            else if(message.equals("who are you") || message.equals("male or female") || message.equals("ladka ya ladki") ||message.equals("tum kon ho") || message.equals("are you human"))
+            {
+                System.out.println("User Said:" +message );
+                System.out.println("Bot Said:" + "I am bot" +" " +name + ",designed by Sparsh Sharma!");
+            }
+
+            else if(message.equals("open camera") || message.equals("camera kholo"))
+            {
+                Runtime run= Runtime.getRuntime();
+                try
+                {
+                    run.exec("cmd /c start microsoft.windows.camera:");
+                }
+                catch(IOException e)
+                {
+                    System.out.println(e);
+                }
+                // System.out.println("User Said:" +message );
+                // System.out.println("Bot Said:" + "I am good" +" " +name + ",What about you?");
+            }
+
+            else if(message.equals("open calculator") || message.equals("calculator"))
+            {
+                Runtime run= Runtime.getRuntime();
+                try
+                {
+                    run.exec("calc");
+                }
+                catch(IOException e)
+                {
+                    System.out.println(e);
+                }
+                // System.out.println("User Said:" +message );
+                System.out.println("Bot Said:" + "Sure" +" " +name + ",Aapke liye kuch bhi?");
+            }
+
+            else if(message.equals("exit") || message.equals("bye"))
+            {
+                System.exit(0);
+            }
+        }
+    }
+}
+
